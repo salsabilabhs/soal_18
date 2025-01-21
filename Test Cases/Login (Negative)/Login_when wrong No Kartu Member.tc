@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_when wrong No Kartu Member</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fca5d428-4267-4f2f-aede-5557acaf38e9</testCaseGuid>
+</TestCaseEntity>

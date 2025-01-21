@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_when input Nomor HP other than starting with 62 and 08</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1d0f684-e8ed-4cf8-86f3-02be9dadd6df</testCaseGuid>
+</TestCaseEntity>

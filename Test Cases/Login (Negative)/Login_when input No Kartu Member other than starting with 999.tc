@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_when input No Kartu Member other than starting with 999</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ae0e1e8-ff17-4bb5-8b55-4418520947bd</testCaseGuid>
+</TestCaseEntity>

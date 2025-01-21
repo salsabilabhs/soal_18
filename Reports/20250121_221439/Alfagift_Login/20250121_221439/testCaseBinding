@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Login (Negative)/Login_when already logged in at another device","testCaseId":"Test Cases/Login (Negative)/Login_when already logged in at another device","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when field Nomor HP-No Kartu Member is empty","testCaseId":"Test Cases/Login (Negative)/Login_when field Nomor HP-No Kartu Member is empty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when field Password is empty","testCaseId":"Test Cases/Login (Negative)/Login_when field Password is empty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when input No Kartu Member less than 16 digit","testCaseId":"Test Cases/Login (Negative)/Login_when input No Kartu Member less than 16 digit","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when input No Kartu Member other than starting with 999","testCaseId":"Test Cases/Login (Negative)/Login_when input No Kartu Member other than starting with 999","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when input Nomor HP less than 10 digit","testCaseId":"Test Cases/Login (Negative)/Login_when input Nomor HP less than 10 digit","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when input Nomor HP other than starting with 62 and 08","testCaseId":"Test Cases/Login (Negative)/Login_when input Nomor HP other than starting with 62 and 08","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when input Password less than 8 character","testCaseId":"Test Cases/Login (Negative)/Login_when input Password less than 8 character","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when wrong No Kartu Member","testCaseId":"Test Cases/Login (Negative)/Login_when wrong No Kartu Member","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when wrong Nomor HP","testCaseId":"Test Cases/Login (Negative)/Login_when wrong Nomor HP","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Negative)/Login_when wrong Password","testCaseId":"Test Cases/Login (Negative)/Login_when wrong Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Positive)/Login_using No Kartu Member","testCaseId":"Test Cases/Login (Positive)/Login_using No Kartu Member","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login (Positive)/Login_using Nomor HP","testCaseId":"Test Cases/Login (Positive)/Login_using Nomor HP","iterationVariableName":""}

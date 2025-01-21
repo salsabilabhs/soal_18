@@ -1,0 +1,232 @@
+[35m[Appium][39m Welcome to Appium v2.2.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m57568[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:57568/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.100.202:57568/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:57568/wd/hub (only accessible from the same host)
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.33.0 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":57567,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"14","appium:noReset":true,"appium:udid":"R9RW3035JLN","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"samsung SM-X205 (Android 14)","platformName":"Android","appium:app":"D:\\Downloads\\base.apk"},"capabilities":{"firstMatch":[{"appium:app":"D:\\Downloads\\base.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-X205 (Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":57567,"appium:udid":"R9RW3035JLN","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\Maxxi\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@a566][0m Appium v2.2.1 creating new AndroidUiautomator2Driver (v2.33.0) session
+[38;5;16m[AppiumDriver@a566][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@a566][0m Appium's BaseDriver version is 9.4.1
+[38;5;16m[AppiumDriver@a566][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.1
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Session created with session id: e0c768d8-3c88-42ac-8090-ebef58930943
+[38;5;32m[BaseDriver][0m Using local app 'D:\Downloads\base.apk'
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Maxxi\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\Maxxi\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Maxxi\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[38;5;80m[AndroidDriver][0m Using device: R9RW3035JLN
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Maxxi\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Package name: 'com.alfamart.alfagift'
+[38;5;64m[ADB][0m Main activity name: 'com.alfamart.alfagift.screen.splash.SplashActivity'
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Maxxi\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[38;5;64m[ADB][0m 'C:\Users\Maxxi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\Maxxi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.15.apk' is signed with the default certificate
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Starting UIAutomator2 server 5.12.15
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Using UIAutomator2 server from 'C:\Users\Maxxi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.15.apk' and test from 'C:\Users\Maxxi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Determined the downstream protocol as 'W3C'
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m Starting 'com.alfamart.alfagift/com.alfamart.alfagift.screen.splash.SplashActivity and waiting for 'com.alfamart.alfagift/com.alfamart.alfagift.screen.splash.SplashActivity'
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m 'com.alfamart.alfagift' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+[38;5;16m[AppiumDriver@a566][0m New AndroidUiautomator2Driver session created successfully, session e0c768d8-3c88-42ac-8090-ebef58930943 added to master session list
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m6351 ms - 1128[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943 [39m[32m200[39m [90m13 ms - 315[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943 [39m[32m200[39m [90m10 ms - 315[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":30000}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/appium/device/system_bars[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@9094 (e0c768d8)][0m No windows have been found whose title matches to 'NavigationBar'. Assuming it is invisible. Only the following windows are available: ShellDropTarget,TaskbarWindow,LockscreenShortcutBlur,NotificationShade,StatusBar,RecentsTransitionOverlay,InputMethod
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/appium/device/system_bars [39m[32m200[39m [90m71 ms - 144[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":50}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/window/rect[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m787 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m381 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m367 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m319 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m333 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m307 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m272 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m258 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m285 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m267 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m258 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m252 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m263 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m229 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m231 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m227 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m232 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m213 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m207 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m222 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m216 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m198 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m224 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m200 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m200 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m211 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m199 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m212 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m195 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m212 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m184 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m207 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m189 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m177 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m184 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m200[39m [90m178 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'MASUK' or . = 'MASUK') and @resource-id = 'com.alfamart.alfagift:id/btn_login']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/e0c768d8-3c88-42ac-8090-ebef58930943/elements [39m[32m-[39m [90m- ms - -[39m
+[38;5;0m[HTTP][0m [90m[39m

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_when already logged in at another device</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75a0c281-47da-422d-95f9-20faaeaad9b1</testCaseGuid>
+</TestCaseEntity>

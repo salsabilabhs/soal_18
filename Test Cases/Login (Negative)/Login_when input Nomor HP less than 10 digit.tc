@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_when input Nomor HP less than 10 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59671169-8ad9-4e19-9d36-b1166f29d74d</testCaseGuid>
+</TestCaseEntity>

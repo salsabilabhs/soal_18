@@ -1,0 +1,131 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Alfagift_Login,,,,21-01-2025 22:14:43,21-01-2025 22:22:18,7m - 35.633s,FAILED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when already logged in at another device,,,,21-01-2025 22:14:43,21-01-2025 22:15:18,34.742s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:14:43,21-01-2025 22:15:04,20.951s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:15:04,21-01-2025 22:15:06,1.794s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""082121212041"", 0)",,,,21-01-2025 22:15:06,21-01-2025 22:15:10,3.881s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Lalauqoke123"", 0)",,,,21-01-2025 22:15:10,21-01-2025 22:15:13,2.861s,PASSED
+hideKeyboard(),,,,21-01-2025 22:15:13,21-01-2025 22:15:15,2.104s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:15:15,21-01-2025 22:15:16,0.983s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Login Gagal""), 0)",,,,21-01-2025 22:15:16,21-01-2025 22:15:17,0.971s,PASSED
+closeApplication(),,,,21-01-2025 22:15:17,21-01-2025 22:15:18,0.902s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when field Nomor HP-No Kartu Member is empty,,,,21-01-2025 22:15:18,21-01-2025 22:15:50,31.915s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:15:18,21-01-2025 22:15:37,18.801s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:15:37,21-01-2025 22:15:39,2.202s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), """", 0)",,,,21-01-2025 22:15:39,21-01-2025 22:15:43,3.760s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:15:43,21-01-2025 22:15:45,2.850s,PASSED
+hideKeyboard(),,,,21-01-2025 22:15:45,21-01-2025 22:15:47,1.655s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:15:47,21-01-2025 22:15:48,0.950s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Mohon isi Nomor HPNo. kartu member""), 0)",,,,21-01-2025 22:15:48,21-01-2025 22:15:49,0.703s,PASSED
+closeApplication(),,,,21-01-2025 22:15:49,21-01-2025 22:15:50,0.830s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when field Password is empty,,,,21-01-2025 22:15:50,21-01-2025 22:16:16,26.186s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:15:50,21-01-2025 22:16:04,13.854s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:16:04,21-01-2025 22:16:06,2.272s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""9990015830750835"", 0)",,,,21-01-2025 22:16:06,21-01-2025 22:16:10,3.673s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), """", 0)",,,,21-01-2025 22:16:10,21-01-2025 22:16:12,2.194s,PASSED
+hideKeyboard(),,,,21-01-2025 22:16:12,21-01-2025 22:16:13,1.696s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:16:13,21-01-2025 22:16:14,0.938s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Mohon isi Password""), 0)",,,,21-01-2025 22:16:14,21-01-2025 22:16:15,0.695s,PASSED
+closeApplication(),,,,21-01-2025 22:16:15,21-01-2025 22:16:16,0.795s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when input No Kartu Member less than 16 digit,,,,21-01-2025 22:16:16,21-01-2025 22:16:46,30.158s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:16:16,21-01-2025 22:16:34,17.884s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:16:34,21-01-2025 22:16:36,2.227s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""999827372"", 0)",,,,21-01-2025 22:16:36,21-01-2025 22:16:40,3.754s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:16:40,21-01-2025 22:16:43,2.843s,PASSED
+hideKeyboard(),,,,21-01-2025 22:16:43,21-01-2025 22:16:44,1.672s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - No. kartu member harus 16 digit""), 0)",,,,21-01-2025 22:16:44,21-01-2025 22:16:45,0.901s,PASSED
+closeApplication(),,,,21-01-2025 22:16:45,21-01-2025 22:16:46,0.814s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when input No Kartu Member other than starting with 999,,,,21-01-2025 22:16:46,21-01-2025 22:17:12,26.099s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:16:46,21-01-2025 22:16:59,12.788s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:16:59,21-01-2025 22:17:02,2.758s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""12345678910"", 0)",,,,21-01-2025 22:17:02,21-01-2025 22:17:05,3.602s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:17:05,21-01-2025 22:17:08,2.805s,PASSED
+hideKeyboard(),,,,21-01-2025 22:17:08,21-01-2025 22:17:10,1.660s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:17:10,21-01-2025 22:17:11,0.940s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Format nomor HP atau No. kartu member anda salah. Mohon periksa kembali""), 0)",,,,21-01-2025 22:17:11,21-01-2025 22:17:11,0.683s,PASSED
+closeApplication(),,,,21-01-2025 22:17:11,21-01-2025 22:17:12,0.789s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when input Nomor HP less than 10 digit,,,,21-01-2025 22:17:12,21-01-2025 22:18:12,1m - 0.373s,FAILED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:17:12,21-01-2025 22:17:30,17.991s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:17:30,21-01-2025 22:17:32,2.305s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""08737382"", 0)",,,,21-01-2025 22:17:32,21-01-2025 22:17:36,3.750s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:17:36,21-01-2025 22:17:39,2.925s,PASSED
+hideKeyboard(),,,,21-01-2025 22:17:39,21-01-2025 22:17:41,1.652s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:17:41,21-01-2025 22:17:42,0.920s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Nomor HP harus di antara 10 hingga 16 digit""), 0)",,,,21-01-2025 22:17:42,21-01-2025 22:17:42,0.662s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), """", 0)",,,,21-01-2025 22:17:42,21-01-2025 22:18:12,30.102s,FAILED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when input Nomor HP other than starting with 62 and 08,,,,21-01-2025 22:18:12,21-01-2025 22:18:50,37.469s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:18:13,21-01-2025 22:18:18,5.553s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:18:18,21-01-2025 22:18:40,21.583s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""652723617376"", 0)",,,,21-01-2025 22:18:40,21-01-2025 22:18:43,3.538s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:18:43,21-01-2025 22:18:46,2.735s,PASSED
+hideKeyboard(),,,,21-01-2025 22:18:46,21-01-2025 22:18:48,1.654s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:18:48,21-01-2025 22:18:48,0.895s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Format nomor HP atau No. kartu member anda salah. Mohon periksa kembali""), 0)",,,,21-01-2025 22:18:48,21-01-2025 22:18:49,0.625s,PASSED
+closeApplication(),,,,21-01-2025 22:18:49,21-01-2025 22:18:50,0.827s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when input Password less than 8 character,,,,21-01-2025 22:18:50,21-01-2025 22:19:21,31.363s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:18:50,21-01-2025 22:19:08,18.461s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:19:08,21-01-2025 22:19:11,2.158s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""0872737364910"", 0)",,,,21-01-2025 22:19:11,21-01-2025 22:19:14,3.685s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla"", 0)",,,,21-01-2025 22:19:14,21-01-2025 22:19:17,2.822s,PASSED
+hideKeyboard(),,,,21-01-2025 22:19:17,21-01-2025 22:19:19,1.715s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:19:19,21-01-2025 22:19:20,0.931s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Kata sandi minimum 8 karakter""), 0)",,,,21-01-2025 22:19:20,21-01-2025 22:19:20,0.696s,PASSED
+closeApplication(),,,,21-01-2025 22:19:20,21-01-2025 22:19:21,0.808s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when wrong No Kartu Member,,,,21-01-2025 22:19:21,21-01-2025 22:19:48,27.170s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:19:21,21-01-2025 22:19:35,13.861s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:19:35,21-01-2025 22:19:38,2.331s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""9990015830750836"", 0)",,,,21-01-2025 22:19:38,21-01-2025 22:19:41,3.686s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:19:41,21-01-2025 22:19:44,2.814s,PASSED
+hideKeyboard(),,,,21-01-2025 22:19:44,21-01-2025 22:19:46,1.709s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:19:46,21-01-2025 22:19:47,0.940s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Login Gagal""), 0)",,,,21-01-2025 22:19:47,21-01-2025 22:19:48,0.959s,PASSED
+closeApplication(),,,,21-01-2025 22:19:48,21-01-2025 22:19:48,0.803s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when wrong Nomor HP,,,,21-01-2025 22:19:48,21-01-2025 22:20:20,31.427s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:19:49,21-01-2025 22:20:07,18.243s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:20:07,21-01-2025 22:20:10,3.244s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""085156622852"", 0)",,,,21-01-2025 22:20:10,21-01-2025 22:20:13,2.589s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:20:13,21-01-2025 22:20:15,2.810s,PASSED
+hideKeyboard(),,,,21-01-2025 22:20:15,21-01-2025 22:20:17,1.694s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:20:17,21-01-2025 22:20:18,0.924s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Login Gagal""), 0)",,,,21-01-2025 22:20:18,21-01-2025 22:20:19,0.985s,PASSED
+closeApplication(),,,,21-01-2025 22:20:19,21-01-2025 22:20:20,0.862s,PASSED
+,,,,,,,
+Test Cases/Login (Negative)/Login_when wrong Password,,,,21-01-2025 22:20:20,21-01-2025 22:20:47,26.679s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:20:20,21-01-2025 22:20:33,13.046s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:20:33,21-01-2025 22:20:35,2.262s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""085156622850"", 0)",,,,21-01-2025 22:20:35,21-01-2025 22:20:39,3.738s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla456"", 0)",,,,21-01-2025 22:20:39,21-01-2025 22:20:42,3.023s,PASSED
+hideKeyboard(),,,,21-01-2025 22:20:42,21-01-2025 22:20:44,1.716s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:20:44,21-01-2025 22:20:45,0.923s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/error_msg/android.widget.TextView - Password Anda salah. Silahkan coba lagi""), 0)",,,,21-01-2025 22:20:45,21-01-2025 22:20:46,1.015s,PASSED
+closeApplication(),,,,21-01-2025 22:20:46,21-01-2025 22:20:47,0.869s,PASSED
+,,,,,,,
+Test Cases/Login (Positive)/Login_using No Kartu Member,,,,21-01-2025 22:20:47,21-01-2025 22:21:29,41.925s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:20:47,21-01-2025 22:21:05,18.528s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:21:05,21-01-2025 22:21:07,2.297s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""9990015830750835"", 0)",,,,21-01-2025 22:21:07,21-01-2025 22:21:11,3.710s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:21:11,21-01-2025 22:21:14,2.815s,PASSED
+hideKeyboard(),,,,21-01-2025 22:21:14,21-01-2025 22:21:16,1.706s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:21:16,21-01-2025 22:21:17,0.953s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/beranda/android.widget.TextView - Beranda""), 0)",,,,21-01-2025 22:21:17,21-01-2025 22:21:28,10.973s,PASSED
+closeApplication(),,,,21-01-2025 22:21:28,21-01-2025 22:21:29,0.887s,PASSED
+,,,,,,,
+Test Cases/Login (Positive)/Login_using Nomor HP,,,,21-01-2025 22:21:29,21-01-2025 22:22:18,49.871s,PASSED
+"startApplication(""D:/Downloads/base.apk"", false)",,,,21-01-2025 22:21:29,21-01-2025 22:21:48,19.667s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - MASUK""), 0)",,,,21-01-2025 22:21:48,21-01-2025 22:21:58,9.480s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Nomor HPNo. kartu member""), ""085156622850"", 0)",,,,21-01-2025 22:21:58,21-01-2025 22:22:02,3.755s,PASSED
+"setText(findTestObject(""Object Repository/fields/android.widget.EditText - Password""), ""Testla123"", 0)",,,,21-01-2025 22:22:02,21-01-2025 22:22:04,2.759s,PASSED
+hideKeyboard(),,,,21-01-2025 22:22:04,21-01-2025 22:22:06,1.747s,PASSED
+"tap(findTestObject(""Object Repository/button/android.widget.TextView - Selanjutnya""), 0)",,,,21-01-2025 22:22:06,21-01-2025 22:22:07,0.906s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/beranda/android.widget.TextView - Beranda""), 0)",,,,21-01-2025 22:22:07,21-01-2025 22:22:17,9.962s,PASSED
+closeApplication(),,,,21-01-2025 22:22:17,21-01-2025 22:22:18,1.509s,PASSED
